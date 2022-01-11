@@ -1,0 +1,10 @@
+
+déplacement:	64x64		6
+pré-attaque:	65x70		3
+attaque:	200x134		3
+mort:		440x440		8
+
+
+fx:	        45x31		3
+
+vision: 	432x402		10

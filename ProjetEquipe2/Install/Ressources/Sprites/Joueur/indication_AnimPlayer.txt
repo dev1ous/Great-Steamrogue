@@ -1,0 +1,16 @@
+
+idle:      137x170	1
+
+course:	   145x170	6
+
+saut:      145x170	4
+
+atk perso: 136x170	1
+
+grab:      84x170	1
+
+
+
+
+idle épée: 101x62	1
+atk épée:  190x86	3

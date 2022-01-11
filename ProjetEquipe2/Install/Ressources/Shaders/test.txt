@@ -1,0 +1,2 @@
+if (hit ||(ou)  bullets->pos.x < -200 ||(  bullets->pos.x > 1800 ||  bullets->pos.y < -200 ||  bullets->pos.y > 1200)
+             bullets->erase(blabla)

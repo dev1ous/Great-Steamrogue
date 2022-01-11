@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME">
+      <UniqueIdentifier>{4a873e27-ec06-4d22-811d-f543f94c33d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME">
+      <UniqueIdentifier>{41fdaa93-8bef-4dcf-aa46-72338bb5e2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\MENU">
+      <UniqueIdentifier>{a6740cc6-7f2e-4767-aabe-a3ad5025cad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\MENU">
+      <UniqueIdentifier>{c2562ae8-56a5-4b07-9bf6-b40208a5f178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CORE">
+      <UniqueIdentifier>{063d5f15-16e1-4cbe-857d-2c7d74ef6184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CORE">
+      <UniqueIdentifier>{ec4c5ddf-5828-4dae-b57b-ee1610eae40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\STATES">
+      <UniqueIdentifier>{e99d7faf-40cf-4728-abe4-e37e690ea595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\STATES">
+      <UniqueIdentifier>{851b292e-6d0d-4798-87e6-81b13da9f65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS">
+      <UniqueIdentifier>{c0a18008-e95a-43b0-aa9a-10125b006f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TOOLS">
+      <UniqueIdentifier>{f6ac4d4d-2fa7-40ae-a4bd-e91580a01ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\COMPONENT">
+      <UniqueIdentifier>{b0ad689d-1b82-422e-b6ac-5cf5d3fe0101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\COMPONENT">
+      <UniqueIdentifier>{6b3658f9-6f1c-43f5-ae54-61bd15acc031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY">
+      <UniqueIdentifier>{315679f6-e521-454a-8894-bf4d3cf17f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable">
+      <UniqueIdentifier>{eb32ef47-93a6-4185-8c3a-39a1c25f60b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\AI">
+      <UniqueIdentifier>{bdd0c6e1-003f-4db0-ada8-479195c6746f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\AI\EliteAI">
+      <UniqueIdentifier>{607f5b99-35df-4285-8bd2-b428207247bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\AI\RemoteAI">
+      <UniqueIdentifier>{801cde04-5802-4306-994d-7b6e81aed869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\Player">
+      <UniqueIdentifier>{0cd6996c-4b62-4133-a51f-5e28336ef008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Unmovable">
+      <UniqueIdentifier>{cd6cdbf0-2586-4e01-9208-de79a43c9444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY">
+      <UniqueIdentifier>{9eaf970e-d275-41ae-a71c-d07f6086e1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable">
+      <UniqueIdentifier>{fa5e956a-a8f5-48a2-9957-7df1e7020bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\Player">
+      <UniqueIdentifier>{19699a21-2a3d-4c7d-a75d-6b52e2fb0950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\AI">
+      <UniqueIdentifier>{5ec0f1b8-d8fa-4087-8b83-9c3b0d496243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\EliteAI">
+      <UniqueIdentifier>{3c4041dd-4232-40aa-8a85-c20fd40a0bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\RemoteAI">
+      <UniqueIdentifier>{485ea1f2-f8c6-4264-84a7-699735f60149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Unmovable">
+      <UniqueIdentifier>{62a21dd6-e180-4a57-82e4-53895eef41d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS\BUTTON">
+      <UniqueIdentifier>{ea3345c4-788a-4f97-968e-98643a11a9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS\RESSOURCES">
+      <UniqueIdentifier>{faea5258-8c1d-49a2-bece-7ddfc87cd351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS\UTILS">
+      <UniqueIdentifier>{277b7aba-9d03-4823-96e2-79f9077c9656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS\FORMS">
+      <UniqueIdentifier>{33789d18-8fae-4e62-8aed-3fa36d8a00dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TOOLS\FORMS">
+      <UniqueIdentifier>{63af85f7-6e67-4fb1-9d20-cc09a42506ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TOOLS\RESSOURCES">
+      <UniqueIdentifier>{1ca80a0f-3c56-4ecf-aae0-1da72c7dce39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TOOLS\BUTTON">
+      <UniqueIdentifier>{1092c32a-0d3b-495f-90f6-a4a7dbeea5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\EDITOR">
+      <UniqueIdentifier>{4beb46ab-01bd-4c9d-a2aa-7ad24a7e8e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\EDITOR">
+      <UniqueIdentifier>{397e5b71-54a0-4015-854d-cacdb78bd0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\EDITOR\MAP">
+      <UniqueIdentifier>{9ae6ac76-1482-4b6d-be44-920fa79fdeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\EDITOR\MAP">
+      <UniqueIdentifier>{b99d1100-8209-427f-a419-c8337b9c49e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\EDITOR\CORE-EDITOR">
+      <UniqueIdentifier>{6916a68f-3740-4d46-b96a-44a0842be73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\EDITOR\CORE-EDITOR">
+      <UniqueIdentifier>{d9c0d107-cb76-4f52-b62e-6347f22fcc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\BasicAI">
+      <UniqueIdentifier>{afd77f51-6739-40dd-a2b6-04ea15f4e676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\AI\BasicAI">
+      <UniqueIdentifier>{b9eee611-86d8-46e6-9232-0b606d79b3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\COLLECTIBLES">
+      <UniqueIdentifier>{01a5bb96-b5ca-4e35-bfd5-f03b9e24696d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\COLLECTIBLES">
+      <UniqueIdentifier>{0119a65b-dee1-45df-be3c-a01ed224fa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\COLLECTIBLES\PIECES DE MONTRE">
+      <UniqueIdentifier>{b44348e6-3c18-4341-aae8-b1fc1c81e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE BOUCLIER">
+      <UniqueIdentifier>{d1916d80-5b9a-4c4c-89d8-2f9dabf381f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE EPEE">
+      <UniqueIdentifier>{59d68d22-639c-4f13-b049-1d091dd26cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\COLLECTIBLES\PIECES DE MONTRE">
+      <UniqueIdentifier>{040da698-5b39-4b87-9142-38b2483896b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\COLLECTIBLES\RECHARGE BOUCLIER">
+      <UniqueIdentifier>{f59d2fc2-aa8d-41ea-a4b4-d7d58d9fbfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\COLLECTIBLES\RECHARGE EPEE">
+      <UniqueIdentifier>{d27f4975-b18c-4eb9-a148-ef57a6f4406c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\HUD">
+      <UniqueIdentifier>{af841afd-09fe-445e-b617-ac1fef5ae600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\HUD">
+      <UniqueIdentifier>{adf4b4e7-3b21-44af-ab4b-5c375f5b3974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\WEAPONS/SHIELD">
+      <UniqueIdentifier>{f168b846-9b44-42f2-a821-a7f964739ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\WEAPONS/SHIELD">
+      <UniqueIdentifier>{a246c4b6-110c-4602-b35d-059665edf4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\TIRS">
+      <UniqueIdentifier>{e83f252d-f4f8-4a95-a5ef-76bc5326317f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\TIRS">
+      <UniqueIdentifier>{76c8ea44-e820-4e7f-a4c3-71490ba640f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\Boss">
+      <UniqueIdentifier>{7f3dc981-9b7c-4c2c-8e84-f68ecfb21bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\ENTITY\Movable\AI\Boss">
+      <UniqueIdentifier>{da95bfcf-2f28-4a50-b92e-b84c218597d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME\SCORE">
+      <UniqueIdentifier>{79acb7fa-fbfd-4287-84c2-d996abf484b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME\SCORE">
+      <UniqueIdentifier>{6a454723-a2dd-4e78-9f7b-0d0cb6490bd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="Movable.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="EliteAI.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\AI\EliteAI</Filter>
+    </ClCompile>
+    <ClCompile Include="Unmovable.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Unmovable</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMManager.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Fichiers sources\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Fichiers sources\GAME\COMPONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Fichiers sources\GAME\COMPONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Fichiers sources\TOOLS\FORMS</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundedRectangleShape.cpp">
+      <Filter>Fichiers sources\TOOLS\FORMS</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheSystem.cpp">
+      <Filter>Fichiers sources\TOOLS\RESSOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Fichiers sources\TOOLS\BUTTON</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiles.cpp">
+      <Filter>Fichiers sources\EDITOR\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="TilesMap.cpp">
+      <Filter>Fichiers sources\EDITOR\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Fichiers sources\EDITOR\CORE-EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="TilesManager.cpp">
+      <Filter>Fichiers sources\EDITOR\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicAI.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\AI\BasicAI</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Fichiers sources\GAME\COMPONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+    <ClCompile Include="Montres.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClCompile>
+    <ClCompile Include="MontresManager.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeShield.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\RECHARGE BOUCLIER</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeSword.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClCompile>
+    <ClCompile Include="CSManager.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClCompile>
+    <ClCompile Include="CShieldManager.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\RECHARGE BOUCLIER</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Fichiers sources\GAME\WEAPONS/SHIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Fichiers sources\GAME\WEAPONS/SHIELD</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Fichiers sources\GAME\TIRS</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Fichiers sources\GAME\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\AI\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="montreHUD.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeSwordHUD.cpp">
+      <Filter>Fichiers sources\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClCompile>
+    <ClCompile Include="Chronometre.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Canon.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Fichiers sources\GAME\SCORE</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPlayer.cpp">
+      <Filter>Fichiers sources\GAME\TIRS</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteAI.cpp">
+      <Filter>Fichiers sources\GAME\ENTITY\Movable\AI\RemoteAI</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditsState.cpp">
+      <Filter>Fichiers sources\STATES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="Movable.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteAI.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\EliteAI</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteAI.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\RemoteAI</Filter>
+    </ClInclude>
+    <ClInclude Include="Unmovable.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Unmovable</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMManager.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Fichiers d%27en-tête\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Fichiers d%27en-tête\GAME\COMPONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>Fichiers d%27en-tête\GAME\COMPONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheSystem.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\RESSOURCES</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\FORMS</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundedRectangleShape.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\FORMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Overload.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Fichiers d%27en-tête\TOOLS\BUTTON</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles.h">
+      <Filter>Fichiers d%27en-tête\EDITOR\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="TilesMap.h">
+      <Filter>Fichiers d%27en-tête\EDITOR\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Fichiers d%27en-tête\EDITOR\CORE-EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="TilesManager.h">
+      <Filter>Fichiers d%27en-tête\EDITOR\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAI.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\BasicAI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Fichiers d%27en-tête\GAME\COMPONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+    <ClInclude Include="Montres.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClInclude>
+    <ClInclude Include="MontresManager.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeShield.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE BOUCLIER</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeSword.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClInclude>
+    <ClInclude Include="CSManager.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClInclude>
+    <ClInclude Include="CShieldManager.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE BOUCLIER</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Fichiers d%27en-tête\GAME\WEAPONS/SHIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Fichiers d%27en-tête\GAME\WEAPONS/SHIELD</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\TIRS</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\AI\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Fichiers d%27en-tête\GAME\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="montreHUD.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\PIECES DE MONTRE</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeSwordHUD.h">
+      <Filter>Fichiers d%27en-tête\GAME\COLLECTIBLES\RECHARGE EPEE</Filter>
+    </ClInclude>
+    <ClInclude Include="Chronometre.h">
+      <Filter>Fichiers d%27en-tête\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Canon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Fichiers d%27en-tête\GAME\SCORE</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Fichiers d%27en-tête\GAME\SCORE</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPlayer.h">
+      <Filter>Fichiers d%27en-tête\GAME\ENTITY\Movable\TIRS</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsState.h">
+      <Filter>Fichiers d%27en-tête\STATES</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
