@@ -7,7 +7,6 @@
 
 class FSMManager
 {
-	//choose stack cuz nice data structures like vector and no need to have more than 1 state in same time
 	std::stack<std::unique_ptr<FSM>> m_states;
 	bool goLastState;
 
